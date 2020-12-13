@@ -1,0 +1,237 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-12-13T12:08:19.125Z",
+    "end": "2020-12-13T12:08:19.137Z",
+    "duration": 12,
+    "testsRegistered": 6,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 6,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "d8d38469-394f-4a56-96c1-7d3b333f1946",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "cd4ad9f9-18d9-45f2-a575-fb5108c02ec9",
+          "title": "scenarios for 2 arguments",
+          "fullFile": "C:\\Users\\Aksana_Zanko\\Desktop\\ATM\\ATM_HW_5\\ATM_HW_5\\test\\specs\\add.spec.js",
+          "file": "\\test\\specs\\add.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook for \"Should return result =2 for 1+1\"",
+              "fullTitle": "scenarios for 2 arguments \"before each\" hook for \"Should return result =2 for 1+1\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "result = new Calculator();",
+              "err": {
+                "message": "TypeError: Calculator is not a constructor",
+                "estack": "TypeError: Calculator is not a constructor\n    at Context.<anonymous> (test\\specs\\add.spec.js:7:18)\n    at processImmediate (internal/timers.js:456:21)",
+                "diff": null
+              },
+              "uuid": "533935b7-09dc-49f5-b449-44fa742ac08d",
+              "parentUUID": "cd4ad9f9-18d9-45f2-a575-fb5108c02ec9",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"scenarios for 2 arguments\"",
+              "fullTitle": "scenarios for 2 arguments \"after each\" hook in \"scenarios for 2 arguments\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "result = null;",
+              "err": {},
+              "uuid": "09032e8f-d0bd-4116-9305-1249f790de10",
+              "parentUUID": "cd4ad9f9-18d9-45f2-a575-fb5108c02ec9",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Should return result =2 for 1+1",
+              "fullTitle": "scenarios for 2 arguments Should return result =2 for 1+1",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(result.add(1,1)).to.be.equal(2);",
+              "err": {},
+              "uuid": "581c48f0-eff7-47cf-a37e-b65652fc3c31",
+              "parentUUID": "cd4ad9f9-18d9-45f2-a575-fb5108c02ec9",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Should return result =1 for 1+0",
+              "fullTitle": "scenarios for 2 arguments Should return result =1 for 1+0",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(result.add(1,0)).to.be.equal(1);",
+              "err": {},
+              "uuid": "c57964c1-84a3-4910-88bd-48a448627dfe",
+              "parentUUID": "cd4ad9f9-18d9-45f2-a575-fb5108c02ec9",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Should return result =0 for -1+1",
+              "fullTitle": "scenarios for 2 arguments Should return result =0 for -1+1",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(result.add(-1,1)).to.be.equal(0);",
+              "err": {},
+              "uuid": "87f78f15-e90e-4330-b17e-6d8c65313a83",
+              "parentUUID": "cd4ad9f9-18d9-45f2-a575-fb5108c02ec9",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Should return result =0 for 1*0",
+              "fullTitle": "scenarios for 2 arguments Should return result =0 for 1*0",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(result.multiply(1,0)).to.be.equal(0);",
+              "err": {},
+              "uuid": "85a8ee45-484b-4661-bb6e-83edd86ef187",
+              "parentUUID": "cd4ad9f9-18d9-45f2-a575-fb5108c02ec9",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Should return result =1 for 1*1",
+              "fullTitle": "scenarios for 2 arguments Should return result =1 for 1*1",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(result.multiply(1,1)).to.be.equal(1);",
+              "err": {},
+              "uuid": "2238b6af-1919-4317-8c73-69995390fc40",
+              "parentUUID": "cd4ad9f9-18d9-45f2-a575-fb5108c02ec9",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Should return result =1 for -1*1",
+              "fullTitle": "scenarios for 2 arguments Should return result =1 for -1*1",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(result.multiply(-1,1)).to.be.equal(-1);",
+              "err": {},
+              "uuid": "485858ad-0405-46d9-86fa-5fb21b5665c5",
+              "parentUUID": "cd4ad9f9-18d9-45f2-a575-fb5108c02ec9",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "581c48f0-eff7-47cf-a37e-b65652fc3c31",
+            "c57964c1-84a3-4910-88bd-48a448627dfe",
+            "87f78f15-e90e-4330-b17e-6d8c65313a83",
+            "85a8ee45-484b-4661-bb6e-83edd86ef187",
+            "2238b6af-1919-4317-8c73-69995390fc40",
+            "485858ad-0405-46d9-86fa-5fb21b5665c5"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
