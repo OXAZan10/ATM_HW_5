@@ -21,7 +21,9 @@
     "url": "https://github.com/OXAZan10/ATM_HW_5/issues"
   },
   "homepage": "https://github.com/OXAZan10/ATM_HW_5#readme",
-  "dependencies": {
-    "chai": "^4.2.0"
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
   }
 }
