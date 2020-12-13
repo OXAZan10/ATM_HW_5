@@ -1,0 +1,27 @@
+{
+  "name": "atm_hw_5",
+  "version": "1.0.0",
+  "description": "unit testing, module 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OXAZan10/ATM_HW_5.git"
+  },
+  "keywords": [
+    "unit",
+    "testing",
+    "mocha"
+  ],
+  "author": "Aksana_Zanko@epam.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OXAZan10/ATM_HW_5/issues"
+  },
+  "homepage": "https://github.com/OXAZan10/ATM_HW_5#readme",
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
