@@ -21,4 +21,4 @@ class Calculator {
 
 }
 
-module.export = Calculator;
+module.exports = Calculator;
